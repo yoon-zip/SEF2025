@@ -39,16 +39,20 @@
         <div id="message" class="message">클릭하면 신청 페이지로 이동합니다.</div>
     </div>
 
+    
     <script>
         let clicked = false;
-        document.getElementById('invitation').addEventListener('click', function() {
+        function handleClick() {
+            console.log("클릭 이벤트 실행됨");  // 디버깅용 로그 출력
+
             if (!clicked) {
                 document.getElementById('message').style.display = 'flex';
                 clicked = true;
             } else {
+                console.log("네이버폼으로 이동");
                 window.location.href = "https://naver.me/FuzdiiHA"; // 네이버폼 링크
             }
-        });
+        }
     </script>
 </body>
 </html>
