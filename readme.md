@@ -46,7 +46,7 @@
                 document.getElementById('message').style.display = 'flex';
                 clicked = true;
             } else {
-                window.location.href = "https://naver.me/your-form-link"; // 네이버폼 링크
+                window.location.href = "[https://naver.me/your-form-link](https://naver.me/FuzdiiHA)"; // 네이버폼 링크
             }
         }
     </script>
