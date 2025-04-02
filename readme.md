@@ -35,7 +35,7 @@
 </head>
 <body>
     <div class="container" onclick="handleClick()">
-        <img id="invitation" src="[invitation.png](https://github.com/yoon-zip/SEF2025/blob/main/invitaion.png?raw=true)" alt="초대장" width="300">
+        <img id="invitation" src="[https://raw.githubusercontent.com/your-username/your-repo/main/invitation.png](https://raw.githubusercontent.com/yoon-zip/SEF2025/refs/heads/main/invitaion.png)" alt="초대장" width="300">
         <div id="message" class="message">클릭하면 신청 페이지로 이동합니다.</div>
     </div>
 
