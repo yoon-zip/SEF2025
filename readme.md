@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -34,21 +35,21 @@
     </style>
 </head>
 <body>
-    <div class="container" onclick="handleClick()">
-        <img id="invitation" src="[https://raw.githubusercontent.com/your-username/your-repo/main/invitation.png](https://raw.githubusercontent.com/yoon-zip/SEF2025/refs/heads/main/invitaion.png)" alt="초대장" width="300">
+    <div class="container">
+        <img id="invitation" src="https://raw.githubusercontent.com/yoon-zip/SEF2025/refs/heads/main/invitaion.png" alt="초대장" width="300">
         <div id="message" class="message">클릭하면 신청 페이지로 이동합니다.</div>
     </div>
 
     <script>
         let clicked = false;
-        function handleClick() {
+        document.getElementById('invitation').addEventListener('click', function() {
             if (!clicked) {
                 document.getElementById('message').style.display = 'flex';
                 clicked = true;
             } else {
-                window.location.href = "[https://naver.me/your-form-link](https://naver.me/FuzdiiHA)"; // 네이버폼 링크
+                window.location.href = "https://naver.me/FuzdiiHA"; // 네이버폼 링크
             }
-        }
+        });
     </script>
 </body>
 </html>
