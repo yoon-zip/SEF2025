@@ -35,7 +35,7 @@
 </head>
 <body>
     <div class="container">
-        <img id="invitation" src="https://raw.githubusercontent.com/yoon-zip/SEF2025/refs/heads/main/invitaion.png" alt="초대장" width="300">
+        <img id="invitation" src="https://raw.githubusercontent.com/yoon-zip/SEF2025/refs/heads/main/invitaion2.png" alt="초대장" width="300">
         <div id="message" class="message">클릭하면 신청 페이지로 이동합니다.</div>
     </div>
 
