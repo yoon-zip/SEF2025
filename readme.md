@@ -15,6 +15,11 @@
         .container {
             position: relative;
             cursor: pointer;
+            display: inline-block;
+        }
+        .container img {
+        width: 100%; /* 추가 */
+        height: auto; /* 추가 */
         }
         .message {
             position: absolute;
